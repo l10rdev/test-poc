@@ -1,7 +1,104 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "custom-button": {
+      "projectType": "library",
+      "root": "projects/custom-button",
+      "sourceRoot": "projects/custom-button/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/custom-button/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/custom-button/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/custom-button/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/custom-button/src/test.ts",
+            "tsConfig": "projects/custom-button/tsconfig.spec.json",
+            "karmaConfig": "projects/custom-button/karma.conf.js"
+          }
+        }
+      }
+    },
+    "custom-input": {
+      "projectType": "library",
+      "root": "projects/custom-input",
+      "sourceRoot": "projects/custom-input/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/custom-input/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/custom-input/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/custom-input/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/custom-input/src/test.ts",
+            "tsConfig": "projects/custom-input/tsconfig.spec.json",
+            "karmaConfig": "projects/custom-input/karma.conf.js"
+          }
+        }
+      }
+    },
+    "app-banner": {
+      "projectType": "library",
+      "root": "projects/app-banner",
+      "sourceRoot": "projects/app-banner/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/app-banner/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/app-banner/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/app-banner/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/app-banner/src/test.ts",
+            "tsConfig": "projects/app-banner/tsconfig.spec.json",
+            "karmaConfig": "projects/app-banner/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "custom-button"
 }

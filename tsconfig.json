@@ -3,6 +3,20 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "app-banner": [
+        "dist/app-banner/app-banner",
+        "dist/app-banner"
+      ],
+      "custom-button": [
+        "dist/custom-button/custom-button",
+        "dist/custom-button"
+      ],
+      "custom-input": [
+        "dist/custom-input/custom-input",
+        "dist/custom-input"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
