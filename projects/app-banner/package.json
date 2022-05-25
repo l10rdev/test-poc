@@ -1,6 +1,9 @@
 {
   "name": "app-banner",
   "version": "0.0.1",
+  "scripts": {
+    "build": "ng build app-banner"
+  },
   "peerDependencies": {
     "@angular/common": "^13.3.0",
     "@angular/core": "^13.3.0"
