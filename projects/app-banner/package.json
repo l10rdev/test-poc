@@ -1,8 +1,9 @@
 {
-  "name": "app-banner",
+  "name": "@lichtsteinerdev/app-banner",
   "version": "0.0.1",
   "scripts": {
-    "build": "ng build app-banner"
+    "build": "ng build app-banner",
+    "postpublish": "rm -rf dist/"
   },
   "peerDependencies": {
     "@angular/common": "^13.3.0",

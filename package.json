@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prepublish": "lerna run build --since HEAD~1 --concurrency=1"
   },
   "private": true,
   "dependencies": {

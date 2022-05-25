@@ -1,8 +1,9 @@
 {
-  "name": "custom-input",
+  "name": "@lichtsteinerdev/custom-input",
   "version": "0.0.1",
   "scripts": {
-    "build": "ng build custom-input"
+    "build": "ng build custom-input",
+    "postpublish": "rm -rf dist/"
   },
   "peerDependencies": {
     "@angular/common": "^13.3.0",
