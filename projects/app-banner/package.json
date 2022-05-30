@@ -13,6 +13,7 @@
     "@angular/core": "^13.3.0"
   },
   "dependencies": {
+    "@lichtsteinerdev/custom-button": "0.0.5",
     "tslib": "^2.3.0"
   },
   "gitHead": "00380ad5cea6a559fd418003561700774b4ce07e"
