@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/app-banner@0.0.6...@lichtsteinerdev/app-banner@0.0.7) (2022-05-30)
+
+**Note:** Version bump only for package @lichtsteinerdev/app-banner
+
+
+
+
+
 ## [0.0.6](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/app-banner@0.0.5...@lichtsteinerdev/app-banner@0.0.6) (2022-05-25)
 
 
