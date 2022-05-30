@@ -2,19 +2,17 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "preserveSymlinks": true,
     "baseUrl": "./",
     "paths": {
-      "app-banner": [
-        "dist/app-banner/app-banner",
-        "dist/app-banner"
+      "@lichtsteinerdev/app-banner": [
+        "dist/app-banner/app-banner"
       ],
-      "custom-button": [
-        "dist/custom-button/custom-button",
-        "dist/custom-button"
+      "@lichtsteinerdev/custom-button": [
+        "dist/custom-button/custom-button"
       ],
-      "custom-input": [
-        "dist/custom-input/custom-input",
-        "dist/custom-input"
+      "@lichtsteinerdev/custom-input": [
+        "dist/custom-input/custom-input"
       ]
     },
     "outDir": "./dist/out-tsc",

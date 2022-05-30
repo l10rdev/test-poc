@@ -1,6 +1,7 @@
 {
   "packages": ["projects/*"],
   "version": "independent",
+  "npmClient": "yarn",
   "command": {
     "publish": {
       "conventionalCommits": true
