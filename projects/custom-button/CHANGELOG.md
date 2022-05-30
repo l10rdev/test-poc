@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/custom-button@0.0.8...@lichtsteinerdev/custom-button@0.0.9) (2022-05-30)
+
+
+### Bug Fixes
+
+* 🐛 fix content in button ([3d3c850](https://github.com/css-ch/poc-lerna-and-ui-lib/commit/3d3c850339df66f964568252a9c5b95a1cc69c74))
+
+
+
+
+
 ## [0.0.8](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/custom-button@0.0.7...@lichtsteinerdev/custom-button@0.0.8) (2022-05-30)
 
 **Note:** Version bump only for package @lichtsteinerdev/custom-button
