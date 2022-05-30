@@ -10,11 +10,12 @@
   },
   "peerDependencies": {
     "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0"
+    "@angular/core": "^13.3.0",
+    "@lichtsteinerdev/custom-button": "0.0.7"
   },
   "dependencies": {
     "@lichtsteinerdev/custom-button": "^0.0.7",
     "tslib": "^2.3.0"
   },
-  "gitHead": "f7babf339a639dbd6993f81686fd4f6596162b3d"
+  "gitHead": "40aac0876916805afcbdcfae55816218cb3b73a3"
 }
