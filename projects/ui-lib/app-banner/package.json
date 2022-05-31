@@ -1,6 +1,6 @@
 {
   "name": "@lichtsteinerdev/app-banner",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "workspaces": [
     "projects/*"
   ],
@@ -19,7 +19,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@lichtsteinerdev/custom-button": "^0.0.11"
+    "@lichtsteinerdev/custom-button": "^0.0.12"
   },
   "gitHead": "fe588ac4bb8b6747a6cb5e13161ef3b4dbd70aa9"
 }
