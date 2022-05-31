@@ -116,7 +116,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-one",
+            "outputPath": "projects/app-one/dist",
             "index": "projects/app-one/src/index.html",
             "main": "projects/app-one/src/main.ts",
             "polyfills": "projects/app-one/src/polyfills.ts",
@@ -203,5 +203,5 @@
       }
     }
   },
-  "defaultProject": "custom-button"
+  "defaultProject": "app-one"
 }

@@ -1,5 +1,5 @@
 {
-  "packages": ["projects/ui-lib/*"],
+  "packages": ["projects/ui-lib/*", "projects/*"],
   "version": "independent",
   "npmClient": "yarn",
   "command": {
