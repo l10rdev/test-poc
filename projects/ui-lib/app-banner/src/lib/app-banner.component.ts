@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-app-banner',
   template: `
     <p>
-      app-banner works new version.
+      app-banner works new version!
     </p>
   `,
   styles: [
