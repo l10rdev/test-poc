@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.16](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/app-banner@0.0.15...@lichtsteinerdev/app-banner@0.0.16) (2022-06-01)
+
+
+### Bug Fixes
+
+* 🐛 chagne content ([f9c6f42](https://github.com/css-ch/poc-lerna-and-ui-lib/commit/f9c6f42fef744633ad79dc60a840074479e8e7c8))
+
+
+
+
+
 ## [0.0.15](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/app-banner@0.0.14...@lichtsteinerdev/app-banner@0.0.15) (2022-05-31)
 
 **Note:** Version bump only for package @lichtsteinerdev/app-banner
