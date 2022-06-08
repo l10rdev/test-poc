@@ -4,7 +4,7 @@ import {Component, Input, OnInit} from '@angular/core';
   selector: 'lib-custom-button',
   template: `
     <p>
-      custom-button works!! {{label}}
+      custom-button works! {{label}}
     </p>
   `,
   styles: [
