@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.14](https://github.com/l10rdev/test-poc/compare/@lichtsteinerdev/custom-button@0.0.13...@lichtsteinerdev/custom-button@0.0.14) (2022-06-08)
+
+**Note:** Version bump only for package @lichtsteinerdev/custom-button
+
+
+
+
+
 ## [0.0.13](https://github.com/css-ch/poc-lerna-and-ui-lib/compare/@lichtsteinerdev/custom-button@0.0.12...@lichtsteinerdev/custom-button@0.0.13) (2022-05-31)
 
 
