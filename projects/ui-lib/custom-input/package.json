@@ -13,7 +13,7 @@
     "@angular/core": "^13.3.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "2.3.0"
   },
   "gitHead": "fe588ac4bb8b6747a6cb5e13161ef3b4dbd70aa9"
 }
